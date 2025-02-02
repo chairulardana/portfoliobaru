@@ -1,24 +1,16 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  zeribowl,
   carrent,
   jobit,
   tripguide,
@@ -53,10 +45,6 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
 ];
 
 const technologies = [
@@ -81,20 +69,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -104,162 +84,68 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Barista/Kasir",
+    company_name: "Zeribowl ",
+    icon: zeribowl,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Maret 2023 - Juli 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Melayani transaksi pelanggan, baik pembayaran tunai maupun non-tunai.",
+      "Mengoperasikan mesin kasir dan memberikan struk pembayaran kepada pelanggan.",
+      "Memastikan jumlah uang tunai di kas sesuai dengan laporan transaksi harian.",
+      "Memberikan pelayanan yang ramah dan cepat kepada pelanggan.",
+      "Mengelola pesanan pelanggan dengan akurat dan meneruskannya ke bagian barista.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      " Mempersiapkan dan menyajikan berbagai minuman kopi, teh, dan lainnya sesuai standar resep.",
+      "Mengoperasikan mesin espresso dan alat pendukung lainnya, seperti grinder dan milk frother.",
+      "Menjaga kebersihan area kerja, termasuk mesin kopi dan peralatan.",
+      "Memastikan kualitas bahan baku(biji kopi, susu, sirup, dll) tetap baik.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Helper Gudang",
+    company_name: "PT Panca Pilar Tangguh",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Juli 2024 - Agustus 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+
+      'Membantu memeriksa dan mencatat barang yang masuk ke gudang.',
+      'Memastikan jumlah dan kondisi barang sesuai dengan surat jalan atau dokumen pengiriman.',
+
+      'Menata barang di rak atau tempat penyimpanan sesuai dengan kategori atau label.',
+      'Memastikan barang disusun dengan rapi dan aman untuk menghindari kerusakan.',
+
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Admin",
+    company_name: "ZayaShop25",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Agustus 2024- November 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Mengelola dan menjaga catatan serta dokumentasi yang akurat di dalam sistem.",
+      "Menangani korespondensi seperti email, panggilan telepon, dan komunikasi lainnya.",
+      "Berkoordinasi dengan berbagai departemen untuk memastikan kelancaran operasional dan penyelesaian tugas.",
+      "Memantau dan memesan perlengkapan kantor agar selalu tersedia saat dibutuhkan.",
+      "Menyusun laporan, presentasi, dan dokumen lain sesuai permintaan manajemen.",
+      "Mengatur dan menjadwalkan pertemuan, janji, serta acara lainnya.",
+      "Memastikan keakuratan entri data dan menjaga kerahasiaan informasi yang sensitif.",
+      "Membantu menyelesaikan masalah administratif dan memberikan dukungan kepada anggota tim."
+
     ],
   },
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+
 ];
 
 const projects = [
-  {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
